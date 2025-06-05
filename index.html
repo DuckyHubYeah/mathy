@@ -9,14 +9,17 @@
 <body>
   <div class="container">
     <h1 class="title">➕ Number Addition Game</h1>
-    
+
     <div class="input-group">
       <input type="number" id="valueOne" class="input" placeholder="Enter first number" />
       <input type="number" id="valueTwo" class="input" placeholder="Enter second number" />
     </div>
-    
-    <button onclick="addNumbers()" class="btn">Add</button>
-    
+
+    <div class="button-group">
+      <button onclick="addNumbers()" class="btn">Add</button>
+      <button onclick="resetGame()" class="btn reset">Reset</button>
+    </div>
+
     <p id="result" class="result"></p>
   </div>
 
