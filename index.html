@@ -8,11 +8,16 @@
 </head>
 <body>
   <div class="container">
-    <h1>Add Two Numbers</h1>
-    <input type="number" id="valueOne" placeholder="Enter first number" />
-    <input type="number" id="valueTwo" placeholder="Enter second number" />
-    <button onclick="addNumbers()">Add</button>
-    <p id="result"></p>
+    <h1 class="title">➕ Number Addition Game</h1>
+    
+    <div class="input-group">
+      <input type="number" id="valueOne" class="input" placeholder="Enter first number" />
+      <input type="number" id="valueTwo" class="input" placeholder="Enter second number" />
+    </div>
+    
+    <button onclick="addNumbers()" class="btn">Add</button>
+    
+    <p id="result" class="result"></p>
   </div>
 
   <script src="script.js"></script>
