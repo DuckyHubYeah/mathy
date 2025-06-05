@@ -43,4 +43,13 @@ function resetGame() {
   document.getElementById('result').textContent = '';
   streak = 0;
   document.getElementById('streak').textContent = '🔥 Streak: 0';
+
+}
+  function togglePartyMode() {
+  const isParty = document.getElementById('partyToggle').checked;
+  if (isParty) {
+    document.body.classList.add('party');
+  } else {
+    document.body.classList.remove('party');
+  }
 }
